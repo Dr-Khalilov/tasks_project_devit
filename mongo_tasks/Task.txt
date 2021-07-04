@@ -1,0 +1,345 @@
+Наполнил базу такой коллекцией:
+MongoDB Enterprise > db.posts.find().pretty()
+{
+        "_id" : ObjectId("60e17219d2c3771afe3f7b3d"),
+        "title" : "Lego",
+        "content" : "Test",
+        "author" : "Babyan",
+        "like" : 10,
+        "dislike" : 20
+}
+{
+        "_id" : ObjectId("60e17273d2c3771afe3f7b3e"),
+        "title" : "Lego2",
+        "content" : "Test2",
+        "author" : "Babyan",
+        "like" : 100,
+        "dislike" : 24
+}
+{
+        "_id" : ObjectId("60e17294d2c3771afe3f7b3f"),
+        "title" : "Lego3",
+        "content" : "Test3",
+        "author" : "Babyan",
+        "like" : 11,
+        "dislike" : 12
+}
+{
+        "_id" : ObjectId("60e172a6d2c3771afe3f7b40"),
+        "title" : "Lego4",
+        "content" : "Test4",
+        "author" : "Babyan",
+        "like" : 7,
+        "dislike" : 6
+}
+{
+        "_id" : ObjectId("60e172b4d2c3771afe3f7b41"),
+        "title" : "Lego5",
+        "content" : "Test5",
+        "author" : "Babyan",
+        "like" : 9,
+        "dislike" : 7
+}
+{
+        "_id" : ObjectId("60e172c4d2c3771afe3f7b42"),
+        "title" : "Lego6",
+        "content" : "Test6",
+        "author" : "Babyan",
+        "like" : 3,
+        "dislike" : 8
+}
+{
+        "_id" : ObjectId("60e172d5d2c3771afe3f7b43"),
+        "title" : "Lego7",
+        "content" : "Test7",
+        "author" : "Babyan",
+        "like" : 13,
+        "dislike" : 14
+}
+{
+        "_id" : ObjectId("60e172e8d2c3771afe3f7b44"),
+        "title" : "Lego8",
+        "content" : "Test8",
+        "author" : "Babyan",
+        "like" : 14,
+        "dislike" : 13
+}
+{
+        "_id" : ObjectId("60e172f5d2c3771afe3f7b45"),
+        "title" : "Lego9",
+        "content" : "Test9",
+        "author" : "Babyan",
+        "like" : 14,
+        "dislike" : 12
+}
+{
+        "_id" : ObjectId("60e17308d2c3771afe3f7b46"),
+        "title" : "Lego10",
+        "content" : "Test10",
+        "author" : "Babyan",
+        "like" : 18,
+        "dislike" : 16
+}
+{
+        "_id" : ObjectId("60e17318d2c3771afe3f7b47"),
+        "title" : "Lego11",
+        "content" : "Test11",
+        "author" : "Babyan",
+        "like" : 8,
+        "dislike" : 3
+}
+{
+        "_id" : ObjectId("60e17387d2c3771afe3f7b48"),
+        "title" : "Lego12",
+        "content" : "Test12",
+        "author" : "Babyan",
+        "like" : 102,
+        "dislike" : 120
+}
+{
+        "_id" : ObjectId("60e17398d2c3771afe3f7b49"),
+        "title" : "Lego13",
+        "content" : "Test13",
+        "author" : "Babyan",
+        "like" : 112,
+        "dislike" : 12
+}
+{
+        "_id" : ObjectId("60e173a9d2c3771afe3f7b4a"),
+        "title" : "Lego14",
+        "content" : "Test14",
+        "author" : "Babyan",
+        "like" : 115,
+        "dislike" : 122
+}
+{
+        "_id" : ObjectId("60e173b6d2c3771afe3f7b4b"),
+        "title" : "Lego15",
+        "content" : "Test15",
+        "author" : "Babyan",
+        "like" : 145,
+        "dislike" : 12
+}
+{
+        "_id" : ObjectId("60e173c4d2c3771afe3f7b4c"),
+        "title" : "Lego16",
+        "content" : "Test16",
+        "author" : "Babyan",
+        "like" : 125,
+        "dislike" : 26
+}
+{
+        "_id" : ObjectId("60e17d85ec7cb1cf79dde30d"),
+        "title" : "Lego17",
+        "content" : "Test17",
+        "author" : "Babyan",
+        "like" : 115,
+        "dislike" : 22
+}
+{
+        "_id" : ObjectId("60e17fcfec7cb1cf79dde30e"),
+        "title" : "Lego18",
+        "content" : "Test18",
+        "author" : "Babyan2",
+        "like" : 115,
+        "dislike" : 22
+}
+{
+        "_id" : ObjectId("60e17fe4ec7cb1cf79dde30f"),
+        "title" : "Lego19",
+        "content" : "Test19",
+        "author" : "Babyan3",
+        "like" : 105,
+        "dislike" : 25
+}
+{
+        "_id" : ObjectId("60e18000ec7cb1cf79dde310"),
+        "title" : "Lego20",
+        "content" : "Test20",
+        "author" : "Babyan4",
+        "like" : 108,
+        "dislike" : 27
+}
+{
+        "_id" : ObjectId("60e180b2ec7cb1cf79dde311"),
+        "title" : "Lego21",
+        "content" : "Test21",
+        "author" : "Babyan4",
+        "like" : 120,
+        "dislike" : 27
+}
+{
+        "_id" : ObjectId("60e180d1ec7cb1cf79dde312"),
+        "title" : "Lego22",
+        "content" : "Test22",
+        "author" : "Babyan3",
+        "like" : 122,
+        "dislike" : 25
+}
+{
+        "_id" : ObjectId("60e180ebec7cb1cf79dde313"),
+        "title" : "Lego23",
+        "content" : "Test23",
+        "author" : "Babyan2",
+        "like" : 130,
+        "dislike" : 22
+}
+
+1. Выведите 5 записей из коллекции posts пропустив первые 5
+MongoDB Enterprise > db.posts.find().skip(5).limit(5).pretty()
+{
+        "_id" : ObjectId("60e172c4d2c3771afe3f7b42"),
+        "title" : "Lego6",
+        "content" : "Test6",
+        "author" : "Babyan",
+        "like" : 3,
+        "dislike" : 8
+}
+{
+        "_id" : ObjectId("60e172d5d2c3771afe3f7b43"),
+        "title" : "Lego7",
+        "content" : "Test7",
+        "author" : "Babyan",
+        "like" : 13,
+        "dislike" : 14
+}
+{
+        "_id" : ObjectId("60e172e8d2c3771afe3f7b44"),
+        "title" : "Lego8",
+        "content" : "Test8",
+        "author" : "Babyan",
+        "like" : 14,
+        "dislike" : 13
+}
+{
+        "_id" : ObjectId("60e172f5d2c3771afe3f7b45"),
+        "title" : "Lego9",
+        "content" : "Test9",
+        "author" : "Babyan",
+        "like" : 14,
+        "dislike" : 12
+}
+{
+        "_id" : ObjectId("60e17308d2c3771afe3f7b46"),
+        "title" : "Lego10",
+        "content" : "Test10",
+        "author" : "Babyan",
+        "like" : 18,
+        "dislike" : 16
+}
+
+2.Выведите все записи у которых like больше 100
+MongoDB Enterprise > db.posts.find({like: {$gt: 100}}).pretty()
+{
+        "_id" : ObjectId("60e17387d2c3771afe3f7b48"),
+        "title" : "Lego12",
+        "content" : "Test12",
+        "author" : "Babyan",
+        "like" : 102,
+        "dislike" : 120
+}
+{
+        "_id" : ObjectId("60e17398d2c3771afe3f7b49"),
+        "title" : "Lego13",
+        "content" : "Test13",
+        "author" : "Babyan",
+        "like" : 112,
+        "dislike" : 12
+}
+{
+        "_id" : ObjectId("60e173a9d2c3771afe3f7b4a"),
+        "title" : "Lego14",
+        "content" : "Test14",
+        "author" : "Babyan",
+        "like" : 115,
+        "dislike" : 122
+}
+{
+        "_id" : ObjectId("60e173b6d2c3771afe3f7b4b"),
+        "title" : "Lego15",
+        "content" : "Test15",
+        "author" : "Babyan",
+        "like" : 145,
+        "dislike" : 12
+}
+{
+        "_id" : ObjectId("60e173c4d2c3771afe3f7b4c"),
+        "title" : "Lego16",
+        "content" : "Test16",
+        "author" : "Babyan",
+        "like" : 125,
+        "dislike" : 26
+}
+{
+        "_id" : ObjectId("60e17d85ec7cb1cf79dde30d"),
+        "title" : "Lego17",
+        "content" : "Test17",
+        "author" : "Babyan",
+        "like" : 115,
+        "dislike" : 22
+}
+{
+        "_id" : ObjectId("60e17fcfec7cb1cf79dde30e"),
+        "title" : "Lego18",
+        "content" : "Test18",
+        "author" : "Babyan2",
+        "like" : 115,
+        "dislike" : 22
+}
+{
+        "_id" : ObjectId("60e17fe4ec7cb1cf79dde30f"),
+        "title" : "Lego19",
+        "content" : "Test19",
+        "author" : "Babyan3",
+        "like" : 105,
+        "dislike" : 25
+}
+{
+        "_id" : ObjectId("60e18000ec7cb1cf79dde310"),
+        "title" : "Lego20",
+        "content" : "Test20",
+        "author" : "Babyan4",
+        "like" : 108,
+        "dislike" : 27
+}
+{
+        "_id" : ObjectId("60e180b2ec7cb1cf79dde311"),
+        "title" : "Lego21",
+        "content" : "Test21",
+        "author" : "Babyan4",
+        "like" : 120,
+        "dislike" : 27
+}
+{
+        "_id" : ObjectId("60e180d1ec7cb1cf79dde312"),
+        "title" : "Lego22",
+        "content" : "Test22",
+        "author" : "Babyan3",
+        "like" : 122,
+        "dislike" : 25
+}
+{
+        "_id" : ObjectId("60e180ebec7cb1cf79dde313"),
+        "title" : "Lego23",
+        "content" : "Test23",
+        "author" : "Babyan2",
+        "like" : 130,
+        "dislike" : 22
+}
+
+3.Добавьте новую запись в коллекцию posts
+MongoDB Enterprise > db.posts.insertOne({title:'Lego24',content:'Test24',author:'Babyan', like:144, dislike:22})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("60e1a101ec7cb1cf79dde314")
+}
+
+4.Выведите список авторов и их общее количество like
+MongoDB Enterprise > db.posts.aggregate([{"$unwind": "$author"}, {"$group": {"_id": "$author", "total_likes": {"$sum":"$like"}}}])
+{ "_id" : "Babyan2", "total_likes" : 245 }
+{ "_id" : "Babyan3", "total_likes" : 227 }
+{ "_id" : "Babyan4", "total_likes" : 228 }
+{ "_id" : "Babyan", "total_likes" : 1065 }
+
+
+

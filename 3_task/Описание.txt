@@ -1,0 +1,89 @@
+1. Первый и наболее используемый это flexbox. Второй позиционирование
+относительно родителя (position: fixed; position: absolute).
+Третий использовать grid.
+2. Создать html элементы div class ="container" Внутри div элемент с классом 
+"modal", 
+Внутри div с классом modal-container. В стилях:
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: fixed;
+  overflow: auto;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+}
+
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -100px;
+  margin-top: -75;
+}
+
+.modal-container {
+  background-color: #fff;
+  width: 200px;
+  height: 150px;
+}
+Для родительского блока устанавливаем position: fixed, а для потомка position:
+absolute. Для абсолютного позиционирования относительно родителя.
+Можно улучшить стили чтобы не зависеть от размеров модального окна
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-container {
+  padding: 20px;
+  background-color: #fff;
+}
+
+Также можно использовать flexbox.
+3.Стили для кнопки
+ .btn {
+  min-width: 100px;
+  font-family: inherit;
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background-color: blue;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: aqua;
+}
+
+.btn:active {
+  background-color: #333;
+  border-color: #333;
+  color: #eee;
+}
+
+.btn[disabled] {
+  color: #d2d5db;
+  background: #6c7589;
+  cursor: not-allowed;
+}
+
+.btn-danger{
+    background-color: red;
+    padding: 30px 40px;
+}
+
+4. Ссылка на страницу логинизации https://github.com/Dr-Khalilov/login_page.git
+
