@@ -52,12 +52,17 @@ let testData4 = [{ "name": "Vasya", "email": "vasya@example.com", "age": 20 }, {
     [{ "name": "Rafshan", "email": "rafshan@example.com", "age": 11 }]]]]]];
 
 // 1. Напишите функцию cloneDeep таким образом, чтобы она была способна клонировать переданный как параметр объект.
-// Пытался разными способоми написать функцию. Но чтобы не находил или писал, последний объект не до конца клонирует.
-// Вложенный массив показывает как массив. Поэтому решил написать по простому, т.к. даже из огроменных функций
-// получается одинаковый вывод
 
-function cloneDeep(obj) {
-  return Object.assign({}, obj);
+const cloneDeep=(obj)=> {
+  const clObj = {};
+  for(const key in obj) {
+    if (obj[key] instanceof Object) {
+      clObj[key] = cloneDeep(obj[key]);
+      continue;
+    }
+    clObj[key] = obj[key];
+  }
+  return clObj;
 }
 
 console.log(cloneDeep(testData4));
