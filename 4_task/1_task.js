@@ -53,7 +53,7 @@ let testData4 = [{"name": "Vasya", "email": "vasya@example.com", "age": 20}, {
 
 // 1. Напишите функцию cloneDeep таким образом, чтобы она была способна клонировать переданный как параметр объект.
 
-const cloneDeep = (obj) => {
+const cloneDeep = obj => {
     const clObj = {};
     for (const key in obj) {
         if (obj[key] instanceof Object) {
